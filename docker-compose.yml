@@ -1,0 +1,22 @@
+version: "3"
+services:
+  postgres:
+    image: "postgres:latest"
+    environment:
+      - POSTGRES_PASSWORD=
+
+  api:
+    build:
+      dockerfile: Dockerfile.dev
+      context: ./server
+    ports:
+      - "4000:5000"
+    volumes:
+      - /app/node_modules
+      - ./server:/app
+    environment:
+      - user=
+      - host=
+      - database=
+      - password=
+      - dbport=

@@ -1,0 +1,44 @@
+[
+  {
+   "image": "https://cdn1.loikka.io/2021-12/ckxg77w6o000d01b61zrsb6gh.1024.webp",
+   "name": "Kia Sportage",
+   "model": "1,6 T-GDI FWD LX 150hv",
+   "description": "Korkotarjous 0,99 % + kulut Kia-mallistoon!",
+   "condition": "UUSI AUTO",
+   "year": "2022",
+   "price": 22000,
+   "installment": 366.67
+  },
+
+  {
+   "image": "https://cdn1.loikka.io/2022-03/cl0jg6v0d000l01cz9xtj7en6.1024.webp",
+   "name": "Mazda CX-60",
+   "model": "2.5 PHEV 8AT AWD Exclusive-Line",
+   "description": "Mazdan uusi lippulaivamalli!",
+   "condition": "UUSI AUTO",
+   "year": "2022",
+   "price": 50000,
+   "installment": 520.83
+  },
+  {
+   "image": "https://cdn1.loikka.io/2021-05/ckp5ky22a000001i4diaiahk9.1024.webp",
+   "name": "Mitsubishi Eclipse Cross",
+   "model": "2.4 PHEV Inform Plus 4WD",
+   "description": "Korko 0,99 % + kulut koko Mitsubishi-mallistoon!",
+   "condition": "UUSI AUTO",
+   "year": "2022",
+   "price": 50000,
+   "installment": 416.67
+  },
+
+  {
+   "image": "https://cdn1.loikka.io/2022-02/cl00sli29000u01fngnmjb3q2.orig.png",
+   "name": "Opel Grandland",
+   "model": "Innovation Plus 130 Turbo A",
+   "description": "Korko 0,99 % + kulut Opel-mallistoon!",
+   "condition": "UUSI AUTO",
+   "year": "2022",
+   "price": 50000,
+   "installment": 416.67
+  }
+]
