@@ -12,7 +12,7 @@ exports.isAuthenticatedUser = catchAsyncErrors(async (req, res, next) => {
     return next(new ErrorHandler("Login first to access this resource.", 401));
   }
 
-  const decoded = jwt.verify(token, "abcdefghij");
+  const decoded = jwt.verify(token, process.env.JWTTOKEN);
   let authUser = await client.query("SELECT * FROM users WHERE user_id=$1", [
     decoded.user_id,
   ]);
